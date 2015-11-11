@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20683211BF2E8230043ED5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20683201BF2E8230043ED5D /* AppDelegate.swift */; };
+		F20683231BF2E8230043ED5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20683221BF2E8230043ED5D /* ViewController.swift */; };
+		F20683261BF2E8230043ED5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20683241BF2E8230043ED5D /* Main.storyboard */; };
+		F20683281BF2E8230043ED5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20683271BF2E8230043ED5D /* Assets.xcassets */; };
+		F206832B1BF2E8230043ED5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20683291BF2E8230043ED5D /* LaunchScreen.storyboard */; };
+		F25A92641BF341B8009C7559 /* SwiftObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25A92631BF341B8009C7559 /* SwiftObject.swift */; };
+		F25A92681BF341D3009C7559 /* ObjCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F25A92671BF341D3009C7559 /* ObjCObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F206831D1BF2E8230043ED5D /* MemoryLeaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryLeaks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20683201BF2E8230043ED5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F20683221BF2E8230043ED5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F20683251BF2E8230043ED5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F20683271BF2E8230043ED5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F206832A1BF2E8230043ED5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F206832C1BF2E8230043ED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25A92631BF341B8009C7559 /* SwiftObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftObject.swift; sourceTree = "<group>"; };
+		F25A92651BF341D2009C7559 /* MemoryLeaks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryLeaks-Bridging-Header.h"; sourceTree = "<group>"; };
+		F25A92661BF341D3009C7559 /* ObjCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCObject.h; sourceTree = "<group>"; };
+		F25A92671BF341D3009C7559 /* ObjCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F206831A1BF2E8230043ED5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20683141BF2E8230043ED5D = {
+			isa = PBXGroup;
+			children = (
+				F206831F1BF2E8230043ED5D /* MemoryLeaks */,
+				F206831E1BF2E8230043ED5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F206831E1BF2E8230043ED5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F206831D1BF2E8230043ED5D /* MemoryLeaks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F206831F1BF2E8230043ED5D /* MemoryLeaks */ = {
+			isa = PBXGroup;
+			children = (
+				F25A92651BF341D2009C7559 /* MemoryLeaks-Bridging-Header.h */,
+				F20683201BF2E8230043ED5D /* AppDelegate.swift */,
+				F20683221BF2E8230043ED5D /* ViewController.swift */,
+				F20683241BF2E8230043ED5D /* Main.storyboard */,
+				F20683271BF2E8230043ED5D /* Assets.xcassets */,
+				F20683291BF2E8230043ED5D /* LaunchScreen.storyboard */,
+				F206832C1BF2E8230043ED5D /* Info.plist */,
+				F25A92631BF341B8009C7559 /* SwiftObject.swift */,
+				F25A92661BF341D3009C7559 /* ObjCObject.h */,
+				F25A92671BF341D3009C7559 /* ObjCObject.m */,
+			);
+			path = MemoryLeaks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F206831C1BF2E8230043ED5D /* MemoryLeaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F206832F1BF2E8230043ED5D /* Build configuration list for PBXNativeTarget "MemoryLeaks" */;
+			buildPhases = (
+				F20683191BF2E8230043ED5D /* Sources */,
+				F206831A1BF2E8230043ED5D /* Frameworks */,
+				F206831B1BF2E8230043ED5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryLeaks;
+			productName = MemoryLeaks;
+			productReference = F206831D1BF2E8230043ED5D /* MemoryLeaks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20683151BF2E8230043ED5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = haranicle;
+				TargetAttributes = {
+					F206831C1BF2E8230043ED5D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F20683181BF2E8230043ED5D /* Build configuration list for PBXProject "MemoryLeaks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F20683141BF2E8230043ED5D;
+			productRefGroup = F206831E1BF2E8230043ED5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F206831C1BF2E8230043ED5D /* MemoryLeaks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F206831B1BF2E8230043ED5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206832B1BF2E8230043ED5D /* LaunchScreen.storyboard in Resources */,
+				F20683281BF2E8230043ED5D /* Assets.xcassets in Resources */,
+				F20683261BF2E8230043ED5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20683191BF2E8230043ED5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25A92681BF341D3009C7559 /* ObjCObject.m in Sources */,
+				F20683231BF2E8230043ED5D /* ViewController.swift in Sources */,
+				F25A92641BF341B8009C7559 /* SwiftObject.swift in Sources */,
+				F20683211BF2E8230043ED5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F20683241BF2E8230043ED5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20683251BF2E8230043ED5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F20683291BF2E8230043ED5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F206832A1BF2E8230043ED5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F206832D1BF2E8230043ED5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F206832E1BF2E8230043ED5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20683301BF2E8230043ED5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MemoryLeaks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.haranicle.MemoryLeaks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MemoryLeaks/MemoryLeaks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F20683311BF2E8230043ED5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MemoryLeaks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.haranicle.MemoryLeaks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MemoryLeaks/MemoryLeaks-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20683181BF2E8230043ED5D /* Build configuration list for PBXProject "MemoryLeaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206832D1BF2E8230043ED5D /* Debug */,
+				F206832E1BF2E8230043ED5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F206832F1BF2E8230043ED5D /* Build configuration list for PBXNativeTarget "MemoryLeaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20683301BF2E8230043ED5D /* Debug */,
+				F20683311BF2E8230043ED5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20683151BF2E8230043ED5D /* Project object */;
+}
