@@ -24,13 +24,23 @@
     return self;
 }
 
+// リークしない
+- (void)doSomethingAsync {
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSLog(@"%@", _title);
+    });
+}
+
+// selfがリークする
 - (void)doSomething {
     self.completion = ^void() {
         NSLog(@"%@", _title);
     };
     _completion();
+    // self.completion = nil; // これがあるとちゃんとreleaseされていることになる
 }
 
+// リークしない
 - (void)doSomethingWithWeakSelf {
     __weak ObjCObject *weakSelf = self;
     self.completion = ^void() {
@@ -38,7 +48,5 @@
     };
     _completion();
 }
-
-
 
 @end

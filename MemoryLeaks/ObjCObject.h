@@ -10,6 +10,8 @@
 
 @interface ObjCObject : NSObject
 
+- (void)doSomethingAsync;
 - (void)doSomething;
+- (void)doSomethingWithWeakSelf;
 
 @end

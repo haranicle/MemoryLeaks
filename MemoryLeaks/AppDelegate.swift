@@ -17,10 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let swiftObject = SwiftObject()
+        swiftObject.doSomethingAsync()
         swiftObject.doSomething()
+        swiftObject.doSomethingWithWeakSelf()
+        swiftObject.doSomethingWithCaptureList()
         
         let objCObject = ObjCObject()
+        objCObject.doSomethingAsync()
         objCObject.doSomething()
+        objCObject.doSomethingWithWeakSelf()
         
         return true
     }
